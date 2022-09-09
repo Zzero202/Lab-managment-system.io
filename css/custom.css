@@ -1,0 +1,212 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+::selection {
+	background: #1ABC9C;
+	color: #FFF;
+	text-shadow: none;
+}
+.section_search{
+	background-image:linear-gradient(to right,rgba(0,0,0,0.9),rgba(5, 168, 255,0.9)),url(../images/search.jpg);
+	
+}
+.section_search form label{
+	color:black;
+}
+
+.section_search form select option {
+color:#1ABC9C;
+border:1px solid red;
+}
+.labs-anaylsis{
+	margin-top:100px !important;
+}
+.offers{
+	margin-top:100px !important;
+}
+
+.offers div h4{
+	margin-bottom:0 !important;
+}
+.klam{
+	background:whitesmoke;
+	max-width:357px;
+	border:1px solid whitesmoke;
+	padding:10px;
+	border-radius:20px;
+}
+.main-service{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+@media screen and (max-width:992px){
+	.main-service{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+	} 
+  }
+  .carousel {
+	position: relative;
+}
+.slider-offers{
+	max-height:200px;
+}
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+  
+  .bgimg {
+	/* Background image */
+	background-image:linear-gradient(to right,rgba(0,0,0.9),rgba(0,255,0,0.1)) ,url('../images/slider/swiper/8.jpg');
+	/* Full-screen */
+	height:500px;
+	/* Center the background image */
+	background-position: center;
+	/* Scale and zoom in the image */
+	background-size: cover;
+	/* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+	position: relative;
+	/* Add a white text color to all elements inside the .bgimg container */
+	color: white;
+	/* Add a font */
+	font-family: "Courier New", Courier, monospace;
+	/* Set the font-size to 25 pixels */
+	font-size: 25px;
+  }
+  
+  /* Position text in the top-left corner */
+  .topleft {
+	position: absolute;
+	top: 0;
+	left: 16px;
+  }
+  
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+	position: absolute;
+	bottom: 0;
+	left: 16px;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  /* Style the <hr> element */
+  hr {
+	margin: auto;
+	width: 40%;
+  }
+  .offer-menu{
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: space-around;
+	  align-items: center;
+  }
+  label {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: rgb(248, 175, 39);
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.progress {
+	height: 5px;
+}
+.field-icon {
+	float: right;
+	font-size:20px;
+	margin-right:10px;
+	margin-top: -35px;
+	color:#1ABC9C;
+	position: relative;
+	
+  }
+  .file-text{
+	  color:#1ABC9C;
+  }
+  .usernamez{
+	display: none;
+  }
+  .emailz{
+	display: none;
+  }
+  .phonez{
+	display: none;
+  }
+  .usernamezz{
+	  display: none;
+  }
+  .id{
+	  display: none;
+  }
+  .success_reserve{
+	  margin: auto;
+	  text-align: center;
+	  padding:20px;
+	  background-color: #215d51;
+	  color:red;
+  }
+  .success_reserve h1{
+
+	color:rgb(151, 51, 51);
+}
+.filteration{
+	background:rgb(236, 236, 236);
+	border-radius: 5px;
+}
+.paginations{
+	user-select: none;
+}
+.paginations li{
+	display: inline-block;
+	margin:5px;
+	box-shadow:0 5px 25px rgb(1 1 1/10%);
+	
+}
+.paginations li a{
+	color:#000;
+	text-decoration: none;
+	font-size:1.2em;
+	line-height: 45px;
+
+}
+.previous-page:hover{
+	transform:translateX(-5px);
+}
+.next-page:hover{
+	transform:translateX(5px);
+}
+.previous-page , .next-page{
+	background:#1ABC9C;
+	width:80px;
+	border-radius:45px;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+.current-page .dots{
+background:#ccc;
+width:45px; 
+border-radius: 50%;
+cursor: pointer;
+}
+.disable{
+	background-color:gray !important;
+}
