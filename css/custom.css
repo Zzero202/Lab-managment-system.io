@@ -161,8 +161,9 @@ border:1px solid red;
 	  margin: auto;
 	  text-align: center;
 	  padding:20px;
-	  background-color: #215d51;
+	  background-color: #bdf5ea;
 	  color:red;
+	  text-transform: capitalize;
   }
   .success_reserve h1{
 

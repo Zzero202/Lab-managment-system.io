@@ -34,7 +34,12 @@ new WOW().init();
 ============================================= -->
 <title>titles</title>
 <style>
-
+label{
+  text-transform: capitalize;
+  color:whitesmoke;
+  font-weight: bolder;
+  font-size:14px;
+}
 .revo-slider-emphasis-text {
     font-size: 58px;
     font-weight: 700;
@@ -90,7 +95,7 @@ $data = mysqli_fetch_array($qry);
             </p>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <h2>enter your info</h2>
+            <h2 style="color:beige">Enter your info</h2>
             <form class="booking-form" method="POST">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">your analysis name</label>
@@ -438,14 +443,14 @@ $data = mysqli_fetch_array($qry);
                 <div class="col-6">
                     <label for="">To: </label>
                 <select class="col-12 p-1" name="to" id="">
-                <option value="house visit">house visit</option>
-                <option value="m3mal visit">m3mal visit</option>
+                <option value="house visit">House visit</option>
+                <option value="m3mal visit">Lab visit</option>
 
                         </select>
                 </div>
                 
                 <div class="col-6">
-                    <label for="">payment: </label>
+                    <label for="">Payment: </label>
                 <select class="col-12 p-1" name="payment" id="">
                             <option value="visa">visa</option>
                             <option value="cash">cash</option>

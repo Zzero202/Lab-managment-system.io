@@ -70,13 +70,14 @@
      $row = mysqli_fetch_assoc($result); 
 
         ?>  <a class="menu-link" href=""><div><i class="icon-user"></i><?php echo $_SESSION['username'] ;?></div></a><ul class="sub-menu-container">
+              <li class="menu-item">
+
+<a class="menu-link" href='profile.php?id=<?php echo $row['id']; ?>'><div style="letter-spacing: 1px;">profile</div></a>
+</li>
         <li class="menu-item">
         <a class="menu-link" href='login.php?logout="1"'><div style="letter-spacing: 1px;">logout</div></a>
         </li>
-        <li class="menu-item">
-
-        <a class="menu-link" href='profile.php?id=<?php echo $row['id']; ?>'><div style="letter-spacing: 1px;">profile</div></a>
-        </li>
+      
         
         </ul>
         <?php

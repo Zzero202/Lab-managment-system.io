@@ -39,9 +39,10 @@
             top:0;
             left: 0;
             width: 100%;
-            color:#00A8BD;
+            color:whitesmoke
+            ;
             overflow: hidden;
-            border-bottom: 8px solid #00A8BD;
+            border-bottom: 8px solid whitesmoke;
             animation: animate 5s linear infinite;
         }
         div{
